@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import csv
 
-with open('further2(2).csv','w',newline='')as f:
+with open('further2(3).csv','w',newline='')as f:
     writer=csv.writer(f)
     header=['month','detail']
     writer.writerow(header)
